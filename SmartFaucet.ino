@@ -4,8 +4,8 @@
 #define SSID        ""      // บรรทัดที่ 11 ให้ใส่ ชื่อ Wifi ที่จะเชื่อมต่อ
 #define PASSWORD    ""     // บรรทัดที่ 12 ใส่ รหัส Wifi
 #define LINE_TOKEN  ""
-int sensor;
-int sensor1;
+int sensor; #ตรวจจับ
+int sensor1; #วัดระดับน้ำ
 int relay = D4;
 LiquidCrystal_I2C lcd(0x3f, 20, 4);
 
